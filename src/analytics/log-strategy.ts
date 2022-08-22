@@ -1,7 +1,7 @@
 import { ActionLog, ScreenLog, ErrorLog } from "@/analytics";
-import { Log } from "./log";
+import { Log } from "@/domain/protocols";
 
-class LogStrategy implements Log {
+export class LogStrategy implements Log {
   constructor(
     private readonly actionLog: ActionLog,
     private readonly screenLog: ScreenLog,
@@ -27,5 +27,3 @@ class LogStrategy implements Log {
     }
   }
 }
-
-export default LogStrategy;

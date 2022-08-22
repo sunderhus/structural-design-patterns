@@ -1,6 +1,5 @@
-import { ActionLog, ErrorLog, ScreenLog } from '@/analytics';
+import { ActionLog, ErrorLog, ScreenLog, LogStrategy } from '@/analytics';
 import MixPanelAnalyticsAdapter from '@/infra/mixpanel-analytics-adapter';
-import LogStrategy from '@/presentation/protocols/log-strategy';
 import { Home } from '@/presentation/pages/home'
 import { ErrorAnalyticsBuilder, ErrorAnalyticsComposite } from '@/main/analytics';
 import { makeMixPanelPersonalToken } from '@/main/factories/analytics/mixpanel-token-factory';

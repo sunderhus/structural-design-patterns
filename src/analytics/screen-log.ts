@@ -1,4 +1,4 @@
-import { Log } from "../presentation/protocols/log";
+import { Log } from "@/domain/protocols";
 import { Analytics } from "./protocols/analytics";
 
 export class ScreenLog implements Log {

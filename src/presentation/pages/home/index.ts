@@ -1,4 +1,4 @@
-import { Log } from '@/presentation/protocols';
+import { Log } from '@/domain/protocols';
 
 export class Home{
     constructor(private readonly logger:Log) {

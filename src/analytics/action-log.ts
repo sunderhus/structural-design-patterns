@@ -1,4 +1,4 @@
-import { Log } from "@/presentation/protocols";
+import { Log } from "@/domain/protocols";
 import { Analytics } from "@/analytics/protocols/analytics";
 
 export class ActionLog implements Log {

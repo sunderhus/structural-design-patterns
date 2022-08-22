@@ -1,6 +1,6 @@
 {
   "name": "analitycs-sunderhus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "analitycs app with design patterns to reduce complexity",
   "main": "index.js",
   "author": "Matheus Sunderhus",
